@@ -1,0 +1,87 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+ p{
+   font-color : black;
+ }
+
+
+body
+{
+    color: black;
+    background: #ADD8E6;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+
+
+
+nav li a
+{
+    color: #ffffff;
+}
+
+nav li a.current
+{
+    color: #fff;
+}
+
+a :link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.heading{
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: #00BFFF;
+}
+
+.link{
+  list-style-type: none;
+
+}
+
+
+#nando{
+  display: inline-block;
+  float: right;
+  padding-left: : 146px;
+  padding-right: 110px;
+  padding: 80px;
+}
+
+.menu{
+  width: 300px;
+  background-color: #00BFFF;
+  margin: 5px;
+
+  margin-right: auto;
+
+  padding: 5px;
+  text-align: center;
+
+}
+#about{
+  margin-left: auto;
+margin-right: 80px;
+margin-top: 70px;
+
+}
+
+
+.gambarresep{
+  width: 350px;
+}
