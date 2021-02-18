@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Staatliches&display=swap');
+
+body {
+       font-family: 'Quicksand',sans-serif;
+       margin: 0;
+       padding: 0;
+
+}
+main {
+   padding: 20px;
+   overflow:auto;
+
+
+
+}
+
+h2,h3 {
+   color: #00a2c6;
+}
+
+
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+/* #00a2c6 = warna biru*/
+
+
+
+nav a:hover {
+   font-weight: bold;
+}
+
+
+.profile header {
+   text-align: center;
+
+}
+
+
+.featured-image {
+
+   object-fit: cover;
+   object-position: center;
+}
+/* object fit mengatur gambar rasio aslinya agar gambar tampak bagus tidak aneh*/
+
+.profile img {
+   width: 200px;
+   margin-left: 60px;
+ }
+/*mengatur ukuran gambar menjadi lebih besar*/
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+
+}
+/*mengatur setiap articel dikelilingi dropbox  link: https://www.cssmatic.com/box-shadow */
+
+
+
+
+
+
+
+
+#content {
+   float: left;
+   width: 65%;
+   padding-left: 20px;
+   margin-left: 20px;
+}
+/*memindahkan content ke kiri*/
+
+aside{
+      float: right;
+      width: 30%;
+
+      padding-right:20px;
+
+    }
+
+/*memposisikan aside di kanan dan memberi jarak dengen
+content dengan padding-left*/
+
+* {
+   box-sizing: border-box;
+}
+/*menerapkan border-box ke seluruh html dengan(selector*)
+Dengan menerapkan nilai border-box pada properti box-sizing,
+kita dapat menentukan dimensi kotak dengan tepat, tanpa dipengaruhi
+oleh padding dan border*/
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}/* Rule yang dituliskan dalam block @media di bawah akan diterapkan
+pada device yang memiliki ukuran viewport di bawah 1000px */
+
+
+nav {
+   background-color: #A2D5F2;
+   padding: 5px;
+
+   top: 0;
+}/*nav bertipe sticky menempel terus diatas dgn menambah di selector
+header display: inline agar saat scroll ke bawah nav akan tampil terus*/

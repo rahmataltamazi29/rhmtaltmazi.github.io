@@ -1,0 +1,221 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Staatliches&display=swap');
+
+body {
+       font-family: 'Quicksand',sans-serif;
+       
+
+}
+main {
+   padding: 20px;
+   overflow:auto;
+}
+
+h2,h3 {
+   color: #00a2c6;
+}
+
+header {
+   display: inline;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+/* #00a2c6 = warna biru*/
+
+nav a{
+   font-size: 18px;
+   font-weight: 450;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+
+.profile header {
+   text-align: center;
+
+}
+
+
+
+/* object fit mengatur gambar rasio aslinya agar gambar tampak bagus tidak aneh*/
+
+.profile img {
+   width: 200px;
+   margin-left: 60px;
+ }
+/*mengatur ukuran gambar menjadi lebih besar*/
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+
+}
+/*mengatur setiap articel dikelilingi dropbox  link: https://www.cssmatic.com/box-shadow */
+
+
+
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+
+
+}
+/*Nilai inline pada properti display akan membuat elemen <li>
+menerapkan sifat inline, sehingga elemen akan ditampilkan tanpa
+membuat baris baru. Dan properti list-style-type dengan nilai none
+akan menghilangkan tanda titik yang dihasilkan tiap item pada list.*/
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   padding-top: 0px;
+}
+
+
+
+#content {
+   float: left;
+   width: 65%;
+   padding-left: 20px;
+   margin-left: 20px;
+}
+/*memindahkan content ke kiri*/
+
+aside{
+      float: right;
+      width: 30%;
+
+      padding-right:20px;
+
+    }
+
+/*memposisikan aside di kanan dan memberi jarak dengen
+content dengan padding-left*/
+
+* {
+   box-sizing: border-box;
+}
+#index-banner{
+  width: 100%;
+  height: 100%;
+
+}
+.page-footer{
+  padding-top: 0px;
+}
+/*menerapkan border-box ke seluruh html dengan(selector*)
+Dengan menerapkan nilai border-box pada properti box-sizing,
+kita dapat menentukan dimensi kotak dengan tepat, tanpa dipengaruhi
+oleh padding dan border*/
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}/* Rule yang dituliskan dalam block @media di bawah akan diterapkan
+pada device yang memiliki ukuran viewport di bawah 1000px */
+
+
+nav {
+   background-color: #A2D5F2;
+   padding: 5px;
+
+   top: 0;
+}/*nav bertipe sticky menempel terus diatas dgn menambah di selector
+header display: inline agar saat scroll ke bawah nav akan tampil terus*/
+
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 40px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+.font{
+  font-family: 'Staatliches', cursive;
+  font-size: 80px;
+
+}
+.font2{
+  font-size: 20px;
+}
+.button a{
+  margin-left: 20px;
+
+}
+.button{
+  margin-right: 25px;
+}
