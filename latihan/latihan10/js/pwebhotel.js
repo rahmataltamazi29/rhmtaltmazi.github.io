@@ -1,4 +1,4 @@
-const endpoint_url = 'http://localhost/PWEB201/prak8/api/';
+const endpoint_url = 'https://51018018.p-web.click/prak8/api/';
 
     document.addEventListener("DOMContentLoaded", function() {
       getRoomRate();
@@ -129,7 +129,7 @@ function getMemberslist() {
             <th>Nama</th>
             <th>Kota</th>
             <th>Negara</th>
-            
+
           </tr>
         </thead>
       <tbody></tbody>
